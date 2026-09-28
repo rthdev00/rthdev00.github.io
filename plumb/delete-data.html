@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PLUMB Data Deletion</title>
+<meta name="description" content="How to delete your data from PLUMB: Endless Tilt Maze, an Android game by rthDev.">
+<style>
+  :root {
+    --bg: #f6f4ef; --fg: #1d1c1a; --muted: #5d5a54; --rule: #dcd8cf;
+    --accent: #b86e00; --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121416; --fg: #e9e6df; --muted: #a19d95; --rule: #2c2f33;
+      --accent: #ffb829; --card: #1a1d20;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121416; --fg: #e9e6df; --muted: #a19d95; --rule: #2c2f33;
+    --accent: #ffb829; --card: #1a1d20;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 20px; margin-bottom: 28px; }
+  .brand { font-weight: 800; letter-spacing: 0.14em; color: var(--accent); font-size: 14px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 6px 0 8px; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0; }
+  h2 { font-size: 19px; margin: 36px 0 8px; }
+  p, li { max-width: 68ch; }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  .summary {
+    background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+    padding: 16px 20px; margin: 0 0 8px;
+  }
+  .summary ul { margin: 8px 0 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; margin: 8px 0; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px 8px 0; border-bottom: 1px solid var(--rule); }
+  th { color: var(--muted); font-weight: 600; }
+  .table-wrap { overflow-x: auto; }
+  ol { padding-left: 22px; }
+  ol li { margin: 8px 0; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="brand">PLUMB</div>
+  <h1>Delete your data</h1>
+  <p class="meta">PLUMB: Endless Tilt Maze &middot; by rthDev &middot; Android package <code>com.rthdev.plumb</code></p>
+</header>
+
+<div class="summary">
+  <strong>How to request deletion</strong>
+  <ol>
+    <li>Send an email to <a href="mailto:rth.dev00@gmail.com?subject=PLUMB%20data%20deletion">rth.dev00@gmail.com</a> with the subject <strong>PLUMB data deletion</strong>.</li>
+    <li>Include your phone model and roughly when you installed PLUMB, so we can find your installation's data.</li>
+    <li>We confirm by email and forward your request to GameAnalytics within 30 days.</li>
+  </ol>
+</div>
+
+<p>PLUMB has no accounts, so there is no account to delete. The data below is all the game produces.</p>
+
+<h2>What gets deleted</h2>
+<ul>
+  <li><strong>Gameplay analytics</strong> held by GameAnalytics for us (run events, session data, device details and the random installation identifier). Deleted or anonymised on request.</li>
+  <li><strong>Your save file</strong> (progress, cosmetics, settings, purchase state). It exists only on your phone: uninstall PLUMB, or clear its storage in Android settings, and it is gone. We never have a copy.</li>
+</ul>
+
+<h2>What is kept, and for how long</h2>
+<ul>
+  <li><strong>Purchases</strong> are recorded by Google Play, not by us, and stay in your Google account so you can restore them. Manage them at <a href="https://play.google.com/store/account/orderhistory" rel="noopener">Google Play order history</a>.</li>
+  <li><strong>Advertising data</strong> collected by Google AdMob is controlled by Google. Delete or reset your advertising ID in your phone's settings under <em>Google &rarr; Ads</em>, and manage the rest at <a href="https://myaccount.google.com/data-and-privacy" rel="noopener">myaccount.google.com</a>.</li>
+  <li>Without a deletion request, GameAnalytics keeps gameplay analytics for as long as we use its service, then deletes or anonymises it. We keep nothing on servers of our own.</li>
+</ul>
+
+<p>See the full <a href="privacy.html">Privacy Policy</a> for everything PLUMB collects and why.</p>
+
+<footer>PLUMB &copy; 2026 rthDev</footer>
+</main>
+</body>
+</html>
